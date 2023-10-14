@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Video with Custom PiP</title>
+    <!-- attaching css files -->
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/grid-list.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="index.html" class="brand">
+            <img src="./images/natgeo.png" alt="Animal Wildlife" />
+            <h3>Animal Wildlife</h3>
+          </a>
+        </li>
+      </ul>
+      <div class="account">
+        <span class="material-icons-outlined" title="Account">
+          account_circle
+        </span>
+        <a href="signup.html">Signup</a>
+      </div>
+    </nav>
+    <div class="video-container">
+      <iframe
+        id="youtube-video"
+        src="https://www.youtube.com/embed/69SA8xPu4mA?autoplay=1&mute=1"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- custom pip when out of viewport  -->
+    <div class="pip-window">
+      <iframe id="pip-video" allowfullscreen></iframe>
+      <button id="but" onclick="togglePiPMode()">Exit PiP Mode</button>
+    </div>
+    <!-- Dummy Gridlist of WildLife -->
+    <main class="main">
+      <div class="container">
+        <div class="videos">
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/jebra.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/tiger.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/jebra.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/tiger.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/jebra.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/tiger.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/jebra.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/tiger.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+
+          <a href="https://www.pexels.com/search/wild%20animal/"
+            ><div class="video">
+              <img src="./images/jebra.jpg" alt="" />
+              <p>Wilderness without wildlife is just scenery</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- attaching Scripting File -->
+    <script src="Script.js"></script>
+    <footer>
+      <p>&copy; 2023 Animal Wildlife. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

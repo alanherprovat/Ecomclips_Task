@@ -1,0 +1,45 @@
+/* iframe original vedio container */
+.video-container {
+  margin-top: 4em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*pip window */
+.pip-window {
+  position: fixed;
+  z-index: 100;
+  bottom: 40px;
+  right: 0px;
+  width: 500px;
+  display: none;
+}
+/* ifram size */
+iframe {
+  width: 80%;
+  height: 220px;
+}
+/*Exit Pip Button Hover Effect*/
+#but:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+
+/*footer*/
+footer {
+  background-color: #585757;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  font-size: 14px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
